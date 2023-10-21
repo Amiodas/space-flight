@@ -1,0 +1,14 @@
+.search {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.search-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #0D6EFD;
+}
+
+.search-btn:hover {
+    background-color: #0c61e0;
+}
