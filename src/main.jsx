@@ -12,7 +12,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />
+        element: <Home />,
+        loader: () => fetch("https://api.spacexdata.com/v3/launches")
       }
     ]
   },
